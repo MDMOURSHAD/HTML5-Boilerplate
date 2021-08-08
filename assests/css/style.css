@@ -1,7 +1,7 @@
 /*
-===================================
-Basic Setup
-===================================
+========================================
+Start Basic Setup
+========================================
 */
 
 *{
@@ -9,3 +9,246 @@ Basic Setup
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/*
+========================================
+End Basic Setup
+========================================
+*/
+
+/*
+========================================
+Start Font Size
+========================================
+*/
+/*
+========================================
+End Font Size
+========================================
+*/
+
+/*
+========================================
+Start Font Color
+========================================
+*/
+/*
+========================================
+End Font Color
+========================================
+*/
+
+/*
+========================================
+Start Background Color
+========================================
+*/
+/*
+========================================
+End Background Color
+========================================
+*/
+
+/*
+========================================
+Start Reusable Components
+========================================
+*/
+/*
+========================================
+End Reusable Components
+========================================
+*/
+
+/*
+====================
+Start Preloader
+====================
+*/
+
+.preloader {
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+}
+
+/*
+====================
+End Preloader
+====================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+========================================
+Start Header Section Css
+========================================
+*/
+/*
+========================================
+End Header Section Css
+========================================
+*/
+
+/*
+===================================
+Start Scroll to Top 
+===================================
+*/
+
+.scroll-top{
+    display: none;
+    position: fixed;
+    right: 30px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: center;
+    background: #f54748;
+    bottom: 40px;
+}
+
+/* Bob */
+
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+.hvr-bob {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .4s, 1.5s;
+  animation-duration: .4s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/*
+===================================
+End Scroll to Top 
+===================================
+*/
